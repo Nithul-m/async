@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div id="firstTitle"> im a div</div>
+    <a href="#" id="home">Home</a>
+    <a href="#" class="click">Click Here</a>
+    <a href="#" class="click">For More</a>
+    <a href="#" class="click">Contact</a>
+    <h3 id="hi">"Hii"</h3>
+
+    <div class="container"> Container 1</div>
+    <div class="container"> Container 2</div>
+    <div class="container"> Container 3</div>
+    <div class="container-wraper"> Container 4</div>
+    <div class="container-wraper"> Container 5</div>
+
+    <p class="container">Im p</p>
+    <h2 class="container">Im h2</h2> -->
+
+    <form class = "m-5" id="contact-form" onsubmit="return validateContactForm()">
+        <label for="fullName">Fullname: </label>
+        <input type="text" name="fullName"  id="name" required>
+        <input type="text" name="password" min="4" max="10" required>
+        <input type="text" name="gender" required>
+        <button onclick="change()">Submit</button>
+
+    </form>
+
+    <p id="p1">Im paragraph 1</p>
+    <button onclick="hide()">Hide P</button>
+    <button onclick="show()">Show P</button>
+
+    <button onclick="changeTextColor()">Change text color</button>
+
+    <div id="animateDiv"></div>
+
+    <input type="text" id="name1" onkeyup="getName()">
+<script src="dom.js"></script>
+</body>
+</html>

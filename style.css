@@ -1,0 +1,12 @@
+form input:valid{
+    border: solid 2px green;
+}
+form input:invalid{
+    border: solid 2px red;
+}
+
+#animateDiv{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+}
